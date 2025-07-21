@@ -1,30 +1,101 @@
-# Project Rahat Dashboard
+# Rahat
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+**Rahat** is a React-based frontend application built for Project Rahat, an initiative by the Government of Chhattisgarh, Collectorate Raipur. The app facilitates role-based dashboards and workflows for officers like Tehsildar, SDM, Rahat Operator, OIC, ADG, and Collector to manage applicant data and approvals related to relief operations.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/leoras-projects-5e419a79/v0-project-rahat-dashboard)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/p6zua3x3Fd7)
+---
 
-## Overview
+## Features
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+- **Role-Based Access**: Separate dashboards for Tehsildar and other approval roles.
+- **Protected Routes**: Only authenticated users can access dashboards and profile pages.
+- **Applicant Management**: Tehsildar can add applicants, upload verification documents, and submit applications.
+- **Multi-Level Approval Workflow**: Applications move through approval stages handled by different officer roles.
+- **File Upload Support**: Upload finding reports and post-mortem reports in PDF, JPG, PNG formats.
+- **Profile Management**: Users can view and edit their profiles securely.
+- **Responsive UI**: Clean and modern interface built with Tailwind CSS and Lucide icons.
 
-## Deployment
+---
 
-Your project is live at:
+## Getting Started
 
-**[https://vercel.com/leoras-projects-5e419a79/v0-project-rahat-dashboard](https://vercel.com/leoras-projects-5e419a79/v0-project-rahat-dashboard)**
+### Prerequisites
 
-## Build your app
+- Node.js (v16 or higher recommended)
+- npm or yarn
+- Backend API providing user authentication, role management, and application workflows
 
-Continue building your app on:
+### Installation
 
-**[https://v0.dev/chat/projects/p6zua3x3Fd7](https://v0.dev/chat/projects/p6zua3x3Fd7)**
+1. **Clone the repository:**
 
-## How It Works
+   ```bash
+   git clone https://github.com/yourusername/rahat.git
+   cd rahat
+````
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Configure environment variables:**
+
+   Create a `.env` file in the root directory and add your environment variables, for example:
+
+   ```env
+   VITE_API_URL=https://your-backend-api.com
+   VITE_SUPABASE_URL=your-supabase-url
+   VITE_SUPABASE_ANON_KEY=your-supabase-anon-key
+   ```
+
+4. **Run the development server:**
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+5. **Open your browser:**
+
+   Visit [http://localhost:3000](http://localhost:3000) to access the app.
+
+---
+
+## Project Structure
+
+```
+src/
+├── components/       # Reusable UI components & dashboards
+├── pages/            # Page components like Login, Dashboard, Profile, About
+├── contexts/         # (Optional) Context providers (Auth removed for decoupling)
+├── lib/              # API helpers and data models
+├── App.tsx           # Main app with routing setup
+```
+
+---
+
+## Usage
+
+* The app requires a `user` object containing at least the `role` property for access control.
+* `ProtectedRoute` component protects private pages by checking if a user is logged in.
+* Replace the dummy authentication logic with your own backend or API calls.
+* Pass user data as props to dashboards and components.
+
+## Dependencies
+
+* React 18+
+* React Router DOM v6+
+* Tailwind CSS
+* Lucide React Icons
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+
