@@ -1,0 +1,101 @@
+[
+  {
+    "id": "1",
+    "name": "राम कुमार शर्मा",
+    "nameEnglish": "Ram Kumar Sharma",
+    "age": 45,
+    "sex": "male",
+    "dateOfBirth": "1978-03-15",
+    "dateOfDeath": "2024-01-10",
+    "location": "रायपुर जिला, छत्तीसगढ़",
+    "locationEnglish": "Raipur District, Chhattisgarh",
+    "address": "ग्राम - सरोना, तहसील - धरसीवा, जिला - रायपुर",
+    "addressEnglish": "Village - Sarona, Tehsil - Dharsiwa, District - Raipur",
+    "familyDetails": "पत्नी: सीता देवी (40 वर्ष), पुत्र: अमित (18 वर्ष), पुत्री: प्रिया (15 वर्ष)",
+    "familyDetailsEnglish": "Wife: Sita Devi (40 years), Son: Amit (18 years), Daughter: Priya (15 years)",
+    "causeOfDeath": "सड़क दुर्घटना",
+    "causeOfDeathEnglish": "Road Accident",
+    "status": "pending",
+    "documents": {
+      "findingReport": "finding_report_ram_kumar.pdf",
+      "postMortemReport": "postmortem_ram_kumar.pdf",
+      "deathCertificate": "death_certificate_ram_kumar.pdf"
+    },
+    "verifications": {
+      "patwari": true,
+      "thanaIncharge": true,
+      "tehsildar": false
+    },
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-15T10:30:00Z",
+    "createdBy": "tehsildar1",
+    "compensationAmount": 400000,
+    "applicationNumber": "RBC4/2024/RAI/001"
+  },
+  {
+    "id": "2",
+    "name": "सुनीता पटेल",
+    "nameEnglish": "Sunita Patel",
+    "age": 38,
+    "sex": "female",
+    "dateOfBirth": "1985-07-22",
+    "dateOfDeath": "2024-01-08",
+    "location": "बिलासपुर जिला, छत्तीसगढ़",
+    "locationEnglish": "Bilaspur District, Chhattisgarh",
+    "address": "ग्राम - अकलतरा, तहसील - अकलतरा, जिला - बिलासपुर",
+    "addressEnglish": "Village - Akaltara, Tehsil - Akaltara, District - Bilaspur",
+    "familyDetails": "पति: राजेश पटेल (42 वर्ष), पुत्र: आदित्य (12 वर्ष), पुत्री: अंजली (8 वर्ष)",
+    "familyDetailsEnglish": "Husband: Rajesh Patel (42 years), Son: Aditya (12 years), Daughter: Anjali (8 years)",
+    "causeOfDeath": "बिजली का झटका",
+    "causeOfDeathEnglish": "Electric Shock",
+    "status": "completed",
+    "documents": {
+      "findingReport": "finding_report_sunita_patel.pdf",
+      "postMortemReport": "postmortem_sunita_patel.pdf",
+      "deathCertificate": "death_certificate_sunita_patel.pdf"
+    },
+    "verifications": {
+      "patwari": true,
+      "thanaIncharge": true,
+      "tehsildar": true
+    },
+    "createdAt": "2024-01-12T14:20:00Z",
+    "updatedAt": "2024-01-16T09:15:00Z",
+    "createdBy": "tehsildar1",
+    "compensationAmount": 400000,
+    "applicationNumber": "RBC4/2024/BIL/002"
+  },
+  {
+    "id": "3",
+    "name": "मोहन लाल वर्मा",
+    "nameEnglish": "Mohan Lal Verma",
+    "age": 52,
+    "sex": "male",
+    "dateOfBirth": "1971-11-08",
+    "dateOfDeath": "2024-01-05",
+    "location": "दुर्ग जिला, छत्तीसगढ़",
+    "locationEnglish": "Durg District, Chhattisgarh",
+    "address": "ग्राम - भिलाई, तहसील - दुर्ग, जिला - दुर्ग",
+    "addressEnglish": "Village - Bhilai, Tehsil - Durg, District - Durg",
+    "familyDetails": "पत्नी: गीता वर्मा (48 वर्ष), पुत्र: विकास (22 वर्ष), पुत्र: सुरेश (19 वर्ष)",
+    "familyDetailsEnglish": "Wife: Geeta Verma (48 years), Son: Vikas (22 years), Son: Suresh (19 years)",
+    "causeOfDeath": "औद्योगिक दुर्घटना",
+    "causeOfDeathEnglish": "Industrial Accident",
+    "status": "sent-to-sdm",
+    "documents": {
+      "findingReport": "finding_report_mohan_verma.pdf",
+      "postMortemReport": "postmortem_mohan_verma.pdf",
+      "deathCertificate": "death_certificate_mohan_verma.pdf"
+    },
+    "verifications": {
+      "patwari": true,
+      "thanaIncharge": true,
+      "tehsildar": true
+    },
+    "createdAt": "2024-01-10T11:45:00Z",
+    "updatedAt": "2024-01-17T16:30:00Z",
+    "createdBy": "tehsildar1",
+    "compensationAmount": 500000,
+    "applicationNumber": "RBC4/2024/DUR/003"
+  }
+]
