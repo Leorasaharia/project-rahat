@@ -41,17 +41,7 @@
    yarn install
    ```
 
-3. **Configure environment variables:**
-
-   Create a `.env` file in the root directory and add your environment variables, for example:
-
-   ```env
-   VITE_API_URL=https://your-backend-api.com
-   VITE_SUPABASE_URL=your-supabase-url
-   VITE_SUPABASE_ANON_KEY=your-supabase-anon-key
-   ```
-
-4. **Run the development server:**
+3. **Run the development server:**
 
    ```bash
    npm run dev
@@ -59,22 +49,9 @@
    yarn dev
    ```
 
-5. **Open your browser:**
+4. **Open your browser:**
 
    Visit [http://localhost:3000](http://localhost:3000) to access the app.
-
----
-
-## Project Structure
-
-```
-src/
-├── components/       # Reusable UI components & dashboards
-├── pages/            # Page components like Login, Dashboard, Profile, About
-├── contexts/         # (Optional) Context providers (Auth removed for decoupling)
-├── lib/              # API helpers and data models
-├── App.tsx           # Main app with routing setup
-```
 
 ---
 
