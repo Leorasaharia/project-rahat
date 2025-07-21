@@ -29,9 +29,9 @@
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/rahat.git
-   cd rahat
-````
+   git clone https://github.com/yourusername/rahat-project.git
+   cd rahat project
+   ````
 
 2. **Install dependencies:**
 
